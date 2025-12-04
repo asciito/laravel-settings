@@ -1,0 +1,12 @@
+<?php
+
+declare(strict_types=1);
+
+namespace {{namespace}};
+
+use Coyotito\LaravelSettings\Settings;
+
+class {{class}} extends Settings
+{
+    // Add your typed settings (properties)
+}

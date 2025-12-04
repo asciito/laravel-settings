@@ -1,6 +1,8 @@
 name: Ensure code quality
 
 on:
+  push:
+    branches: [main, dev]
   pull_request:
     branches: [dev]
 
@@ -31,6 +33,8 @@ jobs:
       - name: Install PHP dependencies
         run: composer install --prefer-dist --no-progress --no-interaction
 
+      - name: Refactoring codebase check
+        run: composer rector:dry
+
       - name: Run code quality testing
         run: composer lint:with-style
-
