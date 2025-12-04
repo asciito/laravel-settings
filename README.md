@@ -1,6 +1,13 @@
-# Laravel Settings
 
-A small package to define typed settings classes and persist application configuration values grouped by logical namespaces.
+<h1 align="center">Laravel Settings</h1>
+
+<p align="center">
+<img alt="Static Badge" src="https://img.shields.io/badge/PHP-%E2%89%A58.4-%234F5D95">
+<a href="https://github.com/coyotito-mx/laravel-settings/actions/workflows/tests.yml"><img src="https://github.com/coyotito-mx/laravel-settings/actions/workflows/tests.yml/badge.svg" alt="Build Status"></a>
+<a href="https://github.com/coyotito-mx/laravel-settings/actions/workflows/lint.yml"><img src="https://github.com/coyotito-mx/laravel-settings/actions/workflows/lint.yml/badge.svg" alt="Build Status"></a>
+</p>
+
+<p align="center">A small package to define typed settings classes and persist application configuration values grouped by logical namespaces.</p>
 
 ---
 
